@@ -52,6 +52,9 @@
 <br>
 <h6>Также вы можете скачать дополнение к скрипту. <a href="dopolnenie.html" target="_blank">Нажмите, чтоб узнать, зачем оно</a>.</h6>
 <style>
+small {
+   text-align: center;
+}
 .center-container {
     text-align: center;
 }

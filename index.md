@@ -51,10 +51,8 @@
 <h5>Примечание: </h5><small>Вы можете использовать только 2 тега <code>&lt;cb-gold&gt;</code>, и 1 раз теги <code>&lt;cb-cyan&gt;</code> и <code>&lt;cb-amethyst&gt;</code>. <br>Именно в таком порядке! <br>Нажмите <a href="pick-library.html">сюда</a>, чтобы исправить это</small>
 <br>
 <h6>Также вы можете скачать дополнение к скрипту. <a href="dopolnenie.html" target="_blank">Нажмите, чтоб узнать, зачем оно</a>.</h6>
+<small>WebPage created with <a href="http://matthew.wagerfield.com/parallax/" target="_blank">parallax.js</a></small>
 <style>
-small {
-   text-align: center;
-}
 .center-container {
     text-align: center;
 }
@@ -162,7 +160,6 @@ body {
                 text-align: center;
             }
         </style>
-            <small>WebPage created with <a href="http://matthew.wagerfield.com/parallax/" target="_blank">parallax.js</a></small>
         <!-- Modal Okno -->
         <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">

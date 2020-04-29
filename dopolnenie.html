@@ -1,0 +1,68 @@
+﻿<!DOCTYPE html>
+<html>
+    <head><meta charset="utf-8">
+        <!-- Bootstrap -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<!-- End of Bootstrap -->
+    </head>
+    
+    <body>
+        <div class="container">
+        <h4>Дополнение</h4>
+        <h5>Это дополнение добавляет к скрипту новые аттрибуты:</h5>
+        <br>
+        <h5>Примеры</h5>
+        <br>
+        <h5>data-hover</h5>
+        <cb-gold data-hover>Example</cb-gold>
+        <br>
+        <cb-cyan data-hover>Example</cb-cyan>
+        <br>
+        <cb-amethyst data-hover>Example</cb-amethyst>
+        <br>
+        <h5>И data-center, но сейчас его нельзя продемонстрировать, ведь все обьекты и так<br> по центру</h5>
+        <br>
+        </div>
+        <style>
+            .container {
+                text-align: center;
+            }
+            
+            body {
+    animation: background 5s infinite alternate;
+}
+
+@keyframes background {
+  50% {
+    background: skyblue;
+    box-shadow: 0 -200px 100px -100px #0eb0cc inset;
+  }
+}
+        </style>
+        <!-- For Library -->
+                <style>
+            cb-gold[data-hover]:hover {
+                text-decoration: underline;
+            }
+            cb-gold[data-center] {
+                text-align: center;
+            }
+            cb-cyan[data-hover]:hover {
+                text-decoration: underline;
+            }
+            cb-cyan[data-center] {
+                text-align: center;
+            }
+            cb-amethyst[data-hover]:hover {
+                text-decoration: underline;
+            }
+            cb-amethyst[data-center] {
+                text-align: center;
+            }
+        </style>
+        <script src="js/library.js"></script>
+    </body>
+</html>

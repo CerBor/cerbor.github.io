@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
     <head><meta charset="utf-8">
         <script src="js/jquery-3.5.0.min.js"></script>

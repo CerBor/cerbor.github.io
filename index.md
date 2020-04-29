@@ -87,7 +87,7 @@
     inset 0 0 7px 2px rgba(0,208,255, 0.6);
   animation: flickering 5s infinite;
 }
-#footer {
+footer {
     background: lightgray;
 	position: absolute;
 	width: 100%;
@@ -159,9 +159,9 @@ body {
                 text-align: center;
             }
         </style>
-        <div id="footer">
+        <footer>
             <small>WebPage created with <a href="http://matthew.wagerfield.com/parallax/" target="_blank">parallax.js</a></small>
-        </div>
+        </footer>
         <!-- Modal Okno -->
         <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">

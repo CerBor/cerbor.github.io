@@ -88,12 +88,6 @@
     inset 0 0 7px 2px rgba(0,208,255, 0.6);
   animation: flickering 5s infinite;
 }
-footer {
-    background: lightgray;
-	position: absolute;
-	width: 100%;
-	height: 40px;
-}
 .modal-title {
     margin-right: 100px;
 }

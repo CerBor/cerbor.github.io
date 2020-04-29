@@ -168,7 +168,7 @@ body {
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true" style="margin-right: -420px">&times;</span>
+          <span aria-hidden="true" style="margin-right: -400px">&times;</span>
         </button>
         <h4 class="modal-title" id="myModalLabel">Проблемы?</h4>
       </div>

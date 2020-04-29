@@ -159,9 +159,7 @@ body {
                 text-align: center;
             }
         </style>
-        <footer>
             <small>WebPage created with <a href="http://matthew.wagerfield.com/parallax/" target="_blank">parallax.js</a></small>
-        </footer>
         <!-- Modal Okno -->
         <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
